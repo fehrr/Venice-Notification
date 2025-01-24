@@ -1,0 +1,719 @@
+header.svelte-unlsvm.svelte-unlsvm {
+    width: 41.0vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.svelte-unlsvm p.svelte-unlsvm {
+    color: #ffffff59;
+    font-size: 01.vw;
+}
+
+.logo.svelte-unlsvm.svelte-unlsvm {
+    display: flex;
+    align-items: center;
+    gap: .62vw;
+    color: #fffc;
+    font-size: 1.78vw;
+    font-weight: 500;
+}
+
+.logo.svelte-unlsvm img.svelte-unlsvm {
+    height: .66vw
+}
+
+.exit.svelte-unlsvm.svelte-unlsvm {
+    display: flex;
+    gap: .42vw;
+    align-items: center;
+    transition: all .2s ease
+}
+
+.exit.svelte-unlsvm.svelte-unlsvm:hover {
+    cursor: pointer;
+    transform: scale(2.02);
+}
+
+.column.svelte-unlsvm.svelte-unlsvm {
+    display: flex;
+    flex-direction: column
+}
+
+.exit.svelte-unlsvm p.svelte-unlsvm {
+    color: #fff9;
+    font-size: .53vw;
+    font-weight: 300;
+}
+
+.exit.svelte-unlsvm b.svelte-unlsvm {
+    color: #ffffff59;
+    font-size: 0.0vw;
+}
+
+main.svelte-1afgv0r.svelte-1afgv0r {
+    margin-top: .58vw;
+    margin-left: .58vw
+}
+
+header.svelte-1afgv0r.svelte-1afgv0r {
+    width: 12.08vw;
+    max-height: 30vw;
+    padding-block: 1vw;
+    border-radius: .42vw;
+    background: linear-gradient(180deg, rgba(20, 20, 20, 1.02) 0%, rgba(23, 23, 23, 1.02) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.info-vehicle.svelte-1afgv0r.svelte-1afgv0r {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .42vw;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-top: .15vw
+}
+
+.column.svelte-1afgv0r.svelte-1afgv0r {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.name-vehicle.svelte-1afgv0r.svelte-1afgv0r {
+    color: #ff113d;
+    font-size: 2.1vw;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: .16vw;
+}
+
+
+.type-vehicle.svelte-1afgv0r.svelte-1afgv0r {
+    color: #ffffff59;
+    font-size: .67vw;
+    letter-spacing: .06vw
+}
+
+.item-info.svelte-1afgv0r.svelte-1afgv0r {
+    width: 07.38vw;
+    height: 1.0vw;
+    border-radius: .0;
+    /* border: .05vw solid rgba(255, 255, 255, 1.02); */
+    background: rgba(20, 20, 20, 1.02);
+    display: flex;
+    padding: 1.0vw;
+    position: relative;
+    margin-top: .0vw;
+}
+
+.row-info.svelte-1afgv0r.svelte-1afgv0r {
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.name-info.svelte-1afgv0r.svelte-1afgv0r {
+    color: #fffc;
+    font-size: .67vw;
+    font-weight: 600
+}
+
+.item-info.svelte-1afgv0r p.svelte-1afgv0r {
+    color: #ffffff59;
+    font-size: .42vw
+}
+
+.progress.svelte-1afgv0r.svelte-1afgv0r {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 07.38vw;
+    height: .11vw;
+    border-radius: .11vw;
+    background: rgba(255, 255, 255, .01);
+    transition: all .2s ease-in-out
+}
+
+.progress.svelte-1afgv0r span.svelte-1afgv0r {
+    display: block;
+    height: 100%;
+    max-width: 100%;
+    border-radius: .11vw;
+    background: rgba(165, 0, 22, 0.75)
+}
+
+.blocked-info.svelte-1afgv0r.svelte-1afgv0r {
+    display: flex;
+    gap: 3.04vw;
+}
+
+.blocked-info.svelte-1afgv0r b.svelte-1afgv0r {
+    color: #fffc;
+    font-size: .63vw;
+    font-weight: 600
+}
+
+.blocked-info.svelte-1afgv0r p.svelte-1afgv0r {
+    color: #ffffff59;
+    font-size: .73vw
+}
+
+.item-blocked.svelte-1afgv0r.svelte-1afgv0r {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.56vw
+}
+
+.image-vehicle.svelte-1afgv0r.svelte-1afgv0r {
+    max-height: 11.58vw;
+}
+
+
+main.svelte-xmxszd {
+    margin-top: .88vw
+}
+
+header.svelte-xmxszd {
+    width: 30.9vw;
+    height: 30vw;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.item-vehicle.svelte-xmxszd {
+    width: 95vw;
+    height: 07vw;
+    border-radius: .5vw;
+    background: linear-gradient(180deg, rgba(19, 19, 19, 0.932) 0%, rgba(19, 19, 19, 0.884) 100%);
+    display: flex;
+    gap: .5vw;
+    align-items: center;
+    justify-content: space-between;
+    /* Distribui o conteúdo entre dois lados */
+    padding: 0 2vw;
+    /* Adiciona espaçamento interno para separar os lados */
+    margin: 0 .5vw .2vw 0;
+}
+
+.item-vehicle.svelte-xmxszd:hover {
+    border-radius: 1.42vw;
+    background: linear-gradient(180deg, rgba(240, 0, 68, 1.884) 0%, rgba(71, 6, 6, 0.61) 100%);
+    cursor: pointer
+}
+
+.selectedVehicle.svelte-xmxszd {
+    border-radius: .42vw;
+    background: linear-gradient(180deg, rgba(187, 0, 0, 0.541) 0%, rgba(187, 0, 0, 0.541) 100%)
+}
+
+.slot-void.svelte-xmxszd:hover {
+    border-radius: .42vw;
+    background: linear-gradient(180deg, rgba(63, 63, 63, 0.808) 0%, rgba(44, 44, 44, 0.726) 100%);
+    cursor: default
+}
+
+.column.svelte-xmxszd {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.name-vehicle.svelte-xmxszd {
+    color: #fffc;
+    font-size: 2.1vw;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: .16vw
+}
+
+.type-vehicle.svelte-xmxszd {
+    color: #ffffff59;
+    font-size: .57vw;
+    letter-spacing: .06vw
+}
+
+.svelte-xmxszd::-webkit-scrollbar {
+    width: .15vw;
+}
+
+.svelte-xmxszd::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, rgba(255, 255, 255, .2) 0%, rgba(132, 132, 132, .2) 100%)
+}
+
+.svelte-xmxszd::-webkit-scrollbar-thumb {
+    background: rgba(194, 0, 26, 0.911);
+}
+
+.svelte-xmxszd::-webkit-scrollbar-thumb:hover {
+    background: #555
+}
+
+.image-vehicle.svelte-xmxszd {
+    width: 8.35vw;
+    height: 8.78vw;
+    object-fit: contain
+}
+
+dialog.svelte-13gjrgh {
+    border-radius: .2em;
+    border: none;
+    padding: 0;
+    background: transparent;
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+    overflow: hidden
+}
+
+dialog.svelte-13gjrgh::backdrop {
+    background: linear-gradient(159deg, rgba(4, 5, 9, 0) 0%, rgba(12, 15, 23, 0.13) 100%);
+    backdrop-filter: blur(.84vw)
+}
+
+.content-modal.svelte-13gjrgh {
+    width: 50vw;
+    /* Largura do modal */
+    height: 50vh;
+    /* Altura do modal */
+    display: flex;
+    /* Usa Flexbox para centralização */
+    align-items: center;
+    /* Centraliza verticalmente os itens */
+    justify-content: center;
+    /* Centraliza horizontalmente os itens */
+    flex-direction: column;
+    /* Organiza os itens em coluna */
+    position: fixed;
+    /* Posiciona o modal em relação à tela */
+    top: 50%;
+    /* Move o modal para o meio da tela verticalmente */
+    left: 50%;
+    /* Move o modal para o meio da tela horizontalmente */
+    transform: translate(-50%, -50%);
+    /* Ajusta a posição para centralizar perfeitamente */
+    z-index: 1000;
+    /* Garante que o modal fique acima de outros elementos */
+    overflow: hidden;
+    /* Para evitar que o conteúdo extrapole os limites do modal */
+    border-radius: 10px;
+    /* Opcional: para bordas arredondadas */
+    background: rgba(0, 0, 0, 0.7);
+    /* Opcional: fundo para melhor visualização */
+}
+
+
+
+dialog[open].svelte-13gjrgh {
+    animation: svelte-13gjrgh-zoom .3s cubic-bezier(.34, 1.56, .64, 1)
+}
+
+@keyframes svelte-13gjrgh-zoom {
+    0% {
+        transform: scale(.95)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+dialog[open].svelte-13gjrgh::backdrop {
+    animation: svelte-13gjrgh-fade .2s ease-out
+}
+
+@keyframes svelte-13gjrgh-fade {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes svelte-13gjrgh-fade2 {
+    0% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+button.svelte-13gjrgh {
+    display: block
+}
+
+.confirm-modal.svelte-13gjrgh {
+    width: 17.45vw;
+    height: 2.59vw;
+    border-radius: .75vw;
+    background: linear-gradient(180deg, rgba(255, 255, 255, .02) 0%, rgba(132, 132, 132, .02) 100%);
+    color: #ffffff59;
+    font-size: .63vw;
+    font-weight: 600;
+    outline: none;
+    border: 0
+}
+
+.confirm-modal.svelte-13gjrgh:hover {
+    background: linear-gradient(180deg, rgba(255, 255, 255, .05) 0%, rgba(132, 132, 132, .05) 100%);
+    color: #fff;
+    cursor: pointer
+}
+
+.cancel-modal.svelte-13gjrgh {
+    width: 17.45vw;
+    border-radius: .65vw;
+    font-size: .63vw;
+    outline: none;
+    border: 0;
+    background: transparent;
+    color: #ffffff26;
+    font-size: .73vw;
+    text-decoration-line: underline;
+    margin-top: .63vw;
+    transition: all .2s ease-in-out
+}
+
+.cancel-modal.svelte-13gjrgh:hover {
+    color: #fff;
+    cursor: pointer
+}
+
+main.svelte-53bmnc.svelte-53bmnc.svelte-53bmnc {
+    margin-top: .58vw
+}
+
+header.svelte-53bmnc.svelte-53bmnc.svelte-53bmnc {
+    width: 6.82vw;
+    display: flex;
+    gap: .82vw;
+}
+
+header.svelte-53bmnc .input-content.svelte-53bmnc.svelte-53bmnc {
+    width: 10.38vw;
+    height: 1.19vw;
+    border-radius: .16vw;
+    background: linear-gradient(180deg, rgba(255, 255, 255, .02) 0%, rgba(132, 132, 132, .02) 100%)
+}
+
+header.svelte-53bmnc input.svelte-53bmnc.svelte-53bmnc {
+    width: 15vw;
+    /* Aumente o tamanho do input */
+    height: 1.5vw;
+    /* Aumente a altura do input */
+    border-radius: .3vw;
+    /* Aumente o raio da borda, se desejar */
+    background: linear-gradient(180deg, rgba(10, 10, 10, 1.02) 100%, rgba(255, 255, 255, 1.02) 100%);
+    border: 0;
+    padding-left: 2vw;
+    /* Aumente o padding esquerdo */
+    outline: 0;
+    color: #f8f9fa;
+    background: url(./search.5120f8b1.svg) no-repeat .8vw center;
+    /* Ajuste a posição da imagem de fundo se necessário */
+}
+
+
+header.svelte-53bmnc input.svelte-53bmnc.svelte-53bmnc::placeholder {
+    color: #ffffff26;
+    font-size: .53vw
+}
+
+.buttons.svelte-53bmnc.svelte-53bmnc.svelte-53bmnc {
+    display: flex;
+    gap: .42vw
+}
+
+.buttons.svelte-53bmnc button.svelte-53bmnc.svelte-53bmnc {
+    width: 08.5vw;
+    /* Aumente o tamanho do botão */
+    height: 1.6vw;
+    /* Aumente o tamanho do botão */
+    border-radius: .16vw;
+    background: linear-gradient(180deg, rgba(82, 82, 82, 1.02) 0%, rgba(82, 82, 82, 1.02) 80%);
+    border: 0;
+    outline: 0;
+    color: #fff3;
+    font-size: .5vw;
+    /* Aumente o tamanho da fonte */
+    font-weight: 900;
+    transition: all .2s ease-in-out;
+    margin-left: 01vw;
+    /* Move o botão mais para a direita */
+}
+
+
+.buttons.svelte-53bmnc button.svelte-53bmnc.svelte-53bmnc:hover {
+    cursor: pointer;
+    border-radius: .16vw;
+    color: #fff;
+    background: linear-gradient(180deg, rgba(255, 255, 255, .06) 0%, rgba(132, 132, 132, .06) 100%)
+}
+
+.buttons.svelte-53bmnc button.selected.svelte-53bmnc.svelte-53bmnc {
+    border-radius: .16vw;
+    background: linear-gradient(180deg, rgba(166, 0, 19, 1.12) 0%, rgba(166, 0, 19, 1.12) 100%);
+    color: #fff9;
+    font-weight: 900;
+}
+
+.row.svelte-53bmnc.svelte-53bmnc.svelte-53bmnc {
+    display: flex
+}
+
+.buttons-main.svelte-53bmnc.svelte-33bmnc.svelte-33bmnc {
+    margin-top: 3.97vw;
+    display: flex;
+    justify-content: center;
+    gap: 1.1vw;
+}
+
+.buttons-main.svelte-53bmnc button.svelte-53bmnc.svelte-53bmnc {
+    width: 10.00vw;
+    height: 3.16vw;
+    border-radius: .59vw;
+    background: linear-gradient(180deg, rgba(90, 90, 90, 0.582) 0%, rgba(90, 90, 90, 0.582) 100%);
+    border: 0;
+    outline: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.0vw;
+    transform: translateY(-1%);
+    /* Ajuste a porcentagem para subir mais ou menos */
+}
+
+
+
+.buttons-main.svelte-53bmnc button.svelte-53bmnc.svelte-53bmnc:hover {
+    cursor: pointer;
+    border-radius: .69vw;
+    background: linear-gradient(180deg, rgba(223, 0, 0, 0.582) 0%, rgba(223, 0, 0, 0.582) 100%)
+}
+
+.buttons-main.svelte-53bmnc .column.svelte-53bmnc.svelte-53bmnc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important
+}
+
+.buttons-main.svelte-53bmnc button b.svelte-53bmnc.svelte-53bmnc {
+    color: #fffc;
+    font-size: .71vw;
+    font-weight: 600;
+    text-align: center;
+    /* Centraliza o texto */
+    display: inline-block;
+    /* Certifica-se de que o elemento ocupa apenas o espaço necessário */
+    width: 100%;
+    /* Faz com que o botão use a largura total */
+}
+
+
+.buttons-main.svelte-53bmnc button p.svelte-53bmnc.svelte-53bmnc {
+    color: #ffffff59;
+    font-size: .57vw;
+    text-align: center;
+    /* Centraliza o texto */
+    display: inline-block;
+    /* Permite que o parágrafo ocupe apenas o espaço necessário */
+    width: 100%;
+    /* Faz com que o botão use a largura total */
+}
+
+
+.title-modal.svelte-53bmnc.svelte-53bmnc.svelte-53bmnc {
+    color: #fffc;
+    font-size: 2.3vw;
+    font-weight: 600;
+    text-align: center
+}
+
+.paragraph-modal.svelte-53bmnc.svelte-53bmnc.svelte-53bmnc {
+    color: #ffffff59;
+    font-size: .99vw;
+    letter-spacing: .05vw
+}
+
+.item-vehicle.svelte-53bmnc.svelte-53bmnc.svelte-53bmnc {
+    border-radius: .42vw;
+    display: flex;
+    gap: .42vw;
+    align-items: center;
+    justify-content: center;
+    margin: .42vw 0
+}
+
+.column.svelte-53bmnc.svelte-53bmnc.svelte-53bmnc {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.name-vehicle.svelte-53bmnc.svelte-53bmnc.svelte-53bmnc {
+    color: #fffc;
+    font-size: 2.1vw;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: .16vw
+}
+
+.type-vehicle.svelte-53bmnc.svelte-53bmnc.svelte-53bmnc {
+    color: #ffffff59;
+    font-size: .47vw;
+    letter-spacing: .06vw
+}
+
+.row-modal.svelte-53bmnc.svelte-53bmnc.svelte-53bmnc {
+    width: 17.45vw;
+    height: 2.59vw;
+    display: flex;
+    justify-content: center;
+    gap: .42vw;
+    flex-wrap: nowrap;
+    margin-bottom: .42vw
+}
+
+.row-modal.svelte-53bmnc .input-content.svelte-53bmnc.svelte-53bmnc {
+    width: 100%;
+    height: 2.59vw;
+    position: relative
+}
+
+.row-modal.svelte-53bmnc .input-content img.svelte-53bmnc.svelte-53bmnc {
+    width: 1.04vw;
+    height: 1.04vw;
+    position: absolute;
+    top: 51%;
+    left: .64vw;
+    transform: translatey(-50%)
+}
+
+.row-modal.svelte-53bmnc input.svelte-53bmnc.svelte-53bmnc {
+    width: 100%;
+    height: 2.59vw;
+    border-radius: .65vw;
+    background: linear-gradient(180deg, rgba(255, 255, 255, .02) 0%, rgba(132, 132, 132, .02) 100%);
+    border: 0;
+    outline: 0;
+    padding-left: 2vw;
+    /* Aumente o valor de padding-left */
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+    color: #fff;
+    font-size: .58vw;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+
+input.svelte-53bmnc.svelte-53bmnc.svelte-53bmnc::-webkit-outer-spin-button,
+input.svelte-53bmnc.svelte-53bmnc.svelte-53bmnc::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+.input-text-center.svelte-53bmnc.svelte-53bmnc.svelte-53bmnc {
+    text-align: center;
+    padding-left: 0 !important
+}
+
+.author-content.svelte-53bmnc.svelte-53bmnc.svelte-53bmnc {
+    width: 100%;
+    height: 3.59vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .42vw;
+    padding: 1.3vw;
+    border-radius: .65vw;
+    background: linear-gradient(180deg, rgba(255, 255, 255, .02) 0%, rgba(132, 132, 132, .02) 100%)
+}
+
+.author-content.svelte-53bmnc img.svelte-53bmnc.svelte-53bmnc {
+    width: 1.04vw
+}
+
+.author-content.svelte-53bmnc .column.svelte-53bmnc.svelte-53bmnc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    color: #ffffff59;
+    font-size: .58vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal
+}
+
+.author-content.svelte-53bmnc .column.svelte-53bmnc p.svelte-53bmnc {
+    color: #fff;
+    font-size: .58vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal
+}
+
+.image-vehicle.svelte-53bmnc.svelte-53bmnc.svelte-53bmnc {
+    width: 3.22vw;
+    height: 2.7vw;
+    object-fit: cover
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: Outfit, sans-serif
+}
+
+.container {
+    width: 90%;
+    /* Largura reduzida para 80% */
+    height: 80vh;
+    /* Altura ajustada para 70vh */
+    max-width: 1000px;
+    /* Largura máxima definida para 1000px */
+    background: linear-gradient(159deg, rgba(0, 0, 0, 0.95) 100%, rgba(22, 22, 22, 0.623) 100%);
+    display: flex;
+    align-items: center;
+    /* Centraliza verticalmente */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    flex-direction: column;
+    padding: 15px;
+    /* Padding interno de 15px */
+    border: 2px solid rgba(255, 0, 0, 0.5);
+    /* Adiciona uma borda de 2px com cor suave */
+    border-radius: 10px;
+    /* Raio de borda ajustado para 10px */
+    box-shadow: 0 2px 10px rgb(29, 29, 29);
+    /* Sombra mais sutil */
+
+    position: absolute;
+    /* Permite centralizar a container */
+    top: 50%;
+    /* Centraliza verticalmente */
+    left: 50%;
+    /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%);
+    /* Ajusta a posição para centralizar corretamente */
+}

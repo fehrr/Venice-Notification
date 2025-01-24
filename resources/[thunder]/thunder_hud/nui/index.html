@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE = edge" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/loading-bar.css" />
+    <link rel="stylesheet/less" type="text/css" href="./styles/styles.less" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./scripts/loading-bar.js"></script>
+
+    <title>Capital HUD</title>
+</head>
+
+<body>
+    <audio id="audio">
+        <source src="./assets/audio.mp3" type="audio/mpeg">
+    </audio>
+    <video muted style="display: none;" class="video" id="video">
+        <source src="./assets/video.mp4" type="video/mp4">
+    </video>
+    <img src="./assets/logo.png" alt="" class="logo">
+    <div id="app">
+        <div class="topInfos">
+            <div class="infos">
+                <div class="info" id="freq">
+                    <div class="icon">
+                        <img src="./assets/radio.svg" alt="radio" />
+                    </div>
+                    <div class="rightInfo">
+                        <p>554mhz</p>
+                    </div>
+
+                </div>
+                <div id="microphone-hud" class="info">
+                    <div class="icon">
+                        <img src="./assets/microphone.svg" alt="microphone" id="microphone" />
+                    </div>
+
+                    <div class="rightInfo">
+                        <div class="volumes">
+                            <div class="volume sussurando volumeOn"></div>
+                            <div class="volume normal volumeOn"></div>
+                            <div class="volume gritando"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="clock-date" class="info">
+                    <div class="icon">
+                        <img src="./assets/clock.svg" alt="clock" />
+                    </div>
+                    <div class="rightInfo">
+                        <h3>
+                            11:55 <br />
+                            <p>26.05.23</p>
+                        </h3>
+                    </div>
+
+                </div>
+            </div>
+            <div id="discord-hud"  class="discord">
+                <div class="icon">
+                    <img src="./assets/discord.svg" alt="discord" />
+                </div>
+                <div class="rightInfo">
+                    <p>DISCORD.GG/thunderOFC</p>
+                </div>
+            </div>
+            <div class="moreInfos">
+                <div id="cupom-hud" class="cupom">
+                    <div class="icon">
+                        <img src="./assets/coupon.svg" alt="coupon" />
+                    </div>
+                    <div class="rightInfo">
+                        <p>FUSIONGROUP50</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="needs">
+            <div class="need">
+                <div class="icon">
+                    <!-- <p class="lifeText"><span>45%</span></p> -->
+                    <img class="lifeIcon" src="./assets/heart.svg" alt="heart" />
+                </div>
+                <div class="progress">
+                    <div class="value"></div>
+                </div>
+            </div>
+
+            <div class="need armour">
+                <div class="icon">
+                    <!-- <p class="armourText"><span>45%</span></p> -->
+                    <img class="armourIcon" src="./assets/shield.svg" alt="shield" />
+                </div>
+                <div class="progress">
+                    <div class="value"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weapon">
+            <img class="weaponImage" src="assets/weapons/-102323637.png" alt="">
+            <p>
+                <img src="assets/weapons/ammo.svg" alt="">
+                <b>222/222</b>
+            </p>
+        </div>
+
+        <div class="vehicle">
+
+            <img src="./assets/seatbelt.svg" alt="seatbelt" id="seatbelt" />
+            <div class="iconsVehicle">
+                <img src="./assets/lock.svg" alt="lock" id="locked" />
+                <img src="./assets/light.svg" alt="light" id="light" />
+            </div>
+
+            <div class="content">
+                <div class="speedUnit">
+                    <p>KM/H</p>
+                </div>
+                <div class="speed">
+                    <p><b>0</b>00</p>
+                </div>
+
+            </div>
+
+            <!-- <div class="ornament">
+                <img src="assets/ornament.png" alt="">
+            </div> -->
+            <!-- <div class="speedProgress">
+                <span></span>
+            </div> -->
+
+            <div class="rpm">
+                <svg class="circle" width="50" height="50">
+                    <circle class="outer" stroke="#ffffff" style="stroke-opacity: 0.15;" stroke-width=".3"
+                        style="stroke-opacity: 0.65;" fill="transparent" r="18" cx="26" cy="26" stroke-dasharray="75 90"
+                        stroke-dashoffset="0" />
+                    <circle class="progress progress-speed" stroke="url(#gradient)" stroke-width=".3"
+                        style="stroke-opacity: 1;" fill="transparent" r="18" cx="26" cy="26" stroke-dasharray="45 90"
+                        stroke-dashoffset="0" />
+                    <animateMotion begin="0s" dur="infinite" repeatCount="infinite" keyPoints="0.5;0.5" fill="freeze"
+                        keyTimes="0;1" calcMode="linear" path="M20,60a35,35 0 1,1 60,0">
+                    </animateMotion>
+                    <defs>
+                        <linearGradient id="gradient">
+                            <stop offset="10%" stop-color="#ff1155" />
+                            <stop offset="100%" stop-color="#ff1155" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+
+
+            <div class="vehicleNeeds" id="fuel">
+                <div class="fuel">
+                    <div class="progress"></div>
+                </div>
+                <img class="iconFuel" src="./assets/fuel.svg" alt="fuel" />
+            </div>
+            <div class="vehicleNeeds" id="engine">
+                <div class="engine">
+                    <div class="progress"></div>
+                </div>
+                <img class="iconEngine" src="./assets/engine.svg" alt="engine" />
+            </div>
+        </div>
+
+        <div class="kidnapping">
+            <div class="rightInfo">
+                <p><b>Sequestro Liberado!</b> <br> 17:00 - 21:00</p>
+            </div>
+            <div class="icon">
+                <img src="assets/assault.svg" alt="">
+            </div>
+        </div>
+
+        <div class="assault">
+            <div class="icon">
+                <img src="assets/assault.svg" alt="">
+            </div>
+            <div class="rightInfo">
+                <p><b>Assalto Liberado!</b> <br> 00:00 - 05:00</p>
+            </div>
+        </div>
+
+        <!-- <div class="street">
+            <div class="icon">
+                <img src="./assets/loc.svg" alt="loc">
+            </div>
+            <div class="progress">
+                <div class="text">
+                    <h3>Groove Street | <span>Dallas Palace</span></h3>
+                </div>
+            </div>
+        </div> -->
+
+
+    </div>
+    <section class="vehicle-doors"></section>
+    <img src="assets/progresslife.svg" alt="" id="progressMask">
+    <div class="recruitmentContainer">
+        <div class="title_recruitment">
+            <img src="./assets/recruitment_icon.svg" alt="">
+            <p>/RECRUTAMENTO</p>
+        </div>
+        <h1 class="recruitment_title">VEJA AS VAGAS PARA FACÇÕES! DIGITE: <b>/RECRUTAMENTO</b></h1>
+        <p class="recruitment_desc">Para remover a notificação, digite <b>/fechar</b></p>
+    </div>
+
+
+
+
+    <div id="notifys"></div>
+    <div id="notifysAdm"></div>
+    <div id="notifysRecruitment"></div>
+    <div id="itemNotifys">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+    <script src="./scripts/loading-bar.js"></script>
+    <script src="./scripts/config.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+{
+  "Sound": {
+    "ClientId": "yLfooVZK5emWPvRLZQlSuGTO8pof6z4t",
+    "MaxResults": "25"
+  },
+
+  "Server": {
+    "Host": "181.215.254.182",
+    "Port": "3000"
+  },
+
+  "Database": {
+    "Host": "127.0.0.1",
+    "User": "root",
+    "Password": "",
+    "Database": "lafy"
+  }
+}
